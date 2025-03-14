@@ -14,54 +14,29 @@ This project is a **two-pass assembler** written in **C** that processes assembl
 
 ## 📂 File Structure
 EO-C-Final-Project/
-├── src/                # Source code directory
-│   ├── assembler.c      # Main assembler file
-│   ├── preassembler.c   # Pre-processing for macros
-│   ├── parser.c         # Parses assembly instructions
-│   ├── symbol_table.c   # Handles labels and addresses
-│   ├── error.c          # Error handling functions
-│   ├── datastructures.c # Linked list implementation for storage
-│   ├── globals.h        # Global definitions
-│   ├── instructions.c   # Handles instruction encoding
-│   ├── opcodes.c        # Manages opcode lookups
-│   └── utils.c          # Helper utility functions
-├── include/             # Header files directory
-│   ├── assembler.h      # Assembler header file
-│   ├── preassembler.h   # Preassembler header file
-│   ├── parser.h         # Parser header file
-│   ├── symbol_table.h   # Symbol table header file
-│   ├── error.h          # Error handling header file
-│   ├── datastructures.h # Data structures header file
-│   ├── instructions.h   # Instruction handling header file
-│   ├── opcodes.h        # Opcodes lookup header file
-│   └── utils.h          # Utility functions header file
-├── examples/            # Example assembly files
-│   ├── example1.as      # Example assembly file
-│   ├── example2.as      # Another example
-│   └── test_cases/      # Folder for test cases
-├── output/              # Directory for generated machine code files
-│   ├── example1.ob      # Object code output
-│   ├── example1.ent     # Entry symbols file
-│   ├── example1.ext     # External symbols file
-│   ├── example2.ob      # Another object code output
-│   ├── logs/            # Folder for error/debug logs
-│   └── temp/            # Temporary files if needed
-├── docs/                # Documentation (optional)
-│   ├── README.md        # Project documentation
-│   ├── DESIGN.md        # Design documentation
-│   ├── INSTALL.md       # Installation guide
-│   ├── USAGE.md         # Usage guide
-│   └── ROADMAP.md       # Future plans
-├── tests/               # Unit tests directory
-│   ├── test_assembler.c # Tests for assembler
-│   ├── test_parser.c    # Tests for parser
-│   ├── test_symbol_table.c # Tests for symbol table
-│   ├── test_opcodes.c   # Tests for opcodes
-│   └── test_data.c      # Tests for data storage
-├── .gitignore           # Ignore unnecessary files (binaries, temp files)
 ├── LICENSE              # Project license
-├── Makefile             # Compilation automation
-└── README.md            # Project overview
+├── README.md            # Project documentation
+├── bitUtils.c           # Bitwise utilities implementation
+├── bitUtils.h           # Bitwise utilities header
+├── dataStructures.c     # Data structures implementation
+├── dataStructures.h     # Data structures header
+├── errors.c             # Error handling implementation
+├── errors.h             # Error handling header
+├── firstPass.c          # First pass of the assembler
+├── firstPass.h          # First pass header file
+├── globals.c            # Global variables implementation
+├── globals.h            # Global variables header
+├── main.c               # Main assembler program
+├── main.h               # Main assembler header
+├── makefile             # Compilation automation
+├── preAssembler.c       # Pre-assembler implementation
+├── preAssembler.h       # Pre-assembler header
+├── run.bat              # Windows batch script to run the assembler
+├── secondPass.c         # Second pass of the assembler
+├── secondPass.h         # Second pass header file
+├── util.c               # Utility functions implementation
+├── util.h               # Utility functions header
+
 
 
 
