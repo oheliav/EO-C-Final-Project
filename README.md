@@ -13,7 +13,8 @@ This project is a **two-pass assembler** written in **C** that processes assembl
 - **Error Handling**: Catches syntax errors, undefined labels, and invalid opcodes.
 
 ## 📂 File Structure
-```EO-C-Final-Project/
+```
+EO-C-Final-Project/
 ├── LICENSE              # Project license
 ├── README.md            # Project documentation
 ├── bitUtils.c           # Bitwise utilities implementation
@@ -38,7 +39,7 @@ This project is a **two-pass assembler** written in **C** that processes assembl
 ├── util.h               # Utility functions header
 
 
-
+```
 
 ## 🚀 Installation & Compilation
 1. Clone this repository:
