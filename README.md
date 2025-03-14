@@ -47,6 +47,9 @@ EO-C-Final-Project/
    git clone https://github.com/oheliav/EO-C-Final-Project.git
    cd EO-C-Final-Project
 2. Compile the assembelr
-   ```make
+   ```make```
 3. Test it on your files
-   ```./assembler x y z (assuming x.asm,y.asm,z.asm)
+   ```./assembler x y z (assuming x.asm,y.asm,z.asm)```
+
+## 📜 License
+This project is licensed under the MIT License – see the LICENSE file for details.
